@@ -1,0 +1,35 @@
+{
+  "name": "school_mgmt_sys",
+  "version": "1.0.0",
+  "description": "A web-based school managament system using MEAN.",
+  "main": "app/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e css,js,sass,ejs,json --watch app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orion110217/school_mgmt_sys.git"
+  },
+  "keywords": [
+    "School",
+    "Management",
+    "System",
+    "MEAN",
+    "Express",
+    "Node",
+    "Mongo"
+  ],
+  "author": "Patrick Buitre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orion110217/school_mgmt_sys/issues"
+  },
+  "homepage": "https://github.com/orion110217/school_mgmt_sys#readme",
+  "dependencies": {
+    "ejs": "^2.5.3",
+    "express": "^4.14.0",
+    "reload": "^1.1.0",
+    "underscore": "^1.8.3"
+  }
+}

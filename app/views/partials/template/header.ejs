@@ -1,0 +1,87 @@
+<nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll">
+	<div class="container">
+    	<div class="navbar-header">
+    		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+    		</button>
+    		<a class="navbar-brand" href="#">Pakyas Elementary School</a>
+    	</div>
+
+    	<div class="collapse navbar-collapse" id="navbar-collapse">
+    		<ul class="nav navbar-nav navbar-right">
+				<li><a href="/">Home</a></li>
+        		<li><a href="/about">About</a></li>
+            <li><a href="/faculty">Faculty</a></li>
+
+            <!-- Dropdown Option -->
+        		<li class="dropdown">
+        			<a href="#" class="dropdown-toggle" data-toggle="dropdown">History <b class="caret"></b></a>
+        			<ul class="dropdown-menu">
+					  <li><a href="/school-history">School History</a></li>
+					  <li><a href="/alumni">Alumni</a></li>
+					  <li><a href="/awards">Awards</a></li>
+					  <li class="divider"></li>
+				      <li><a href="/donate">Donate</a></li>
+        			</ul>
+        		</li>
+
+						<li>
+							<a rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/PakyasElementarySchool" target="_blank" class="btn btn-white btn-simple btn-just-icon">
+								<i class="fa fa-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/PakyasElementarySchool" target="_blank" class="btn btn-white btn-simple btn-just-icon">
+								<i class="fa fa-facebook-square"></i>
+							</a>
+						</li>
+						<li>
+							<a rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/PakyasElementarySchool" target="_blank" class="btn btn-white btn-simple btn-just-icon">
+								<i class="fa fa-instagram"></i>
+							</a>
+						</li>
+    		</ul>
+
+    	</div>
+	</div>
+</nav>
+
+<div class="wrapper">
+	<% if (pageID === "home") { %>
+	  <div class="header header-filter" style="background-image: url('images/bg.jpg');">
+	<% } else if (pageID === "about") { %>
+	  <div class="header header-filter" style="background-image: url('images/bg2.jpg');">
+	<% } else if (pageID === "faculty") { %>
+	  <div class="header header-filter" style="background-image: url('images/bg3.jpg');">
+	<% } else { %>
+	  <div class="header header-filter" style="background-image: url('images/bg4.jpg');">
+	<% } %>
+
+				<div class="container">
+	  			<div class="row">
+	  				<div class="col-md-8 col-md-offset-2">
+	  					<div class="brand">
+
+								<% if (pageID === "home") { %>
+									<h1>Education is the most powerful weapon which you can use to change the world.</h1>
+		  						<h3>- Nelson Mandela</h3>
+								<% } else if (pageID === "about") { %>
+									<h1>Education is what remains after one has forgotten what one has learned in school.</h1>
+									<h3>- Albert Einstein</h3>
+								<% } else if (pageID === "faculty") { %>
+									<h1>A good teacher can inspire hope, ignite the imagination, and instill a love of learning.</h1>
+									<h3>- Brad Henry</h3>
+								<% } else { %>
+									<h1>Life is really simple, but we insist on making it complicated.</h1>
+									<h3>- Confucius</h3>
+								<% } %>
+	  					</div>
+	  				</div>
+	  			</div>
+
+	  		</div>
+	  	</div>
+	</div>

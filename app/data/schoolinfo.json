@@ -1,0 +1,28 @@
+{
+  "teachers": [{
+    "name" : "Samantha Smith",
+    "title" : "Principal",
+    "summary" : "Graduated from University of Santo Thomas, major in English, loves to write poems.",
+    "shortname": "samantha_smith",
+    "socialmedia": ["sam_smith","sam_smith","sam_smith"]
+  },{
+    "name" : "Macario Sakay",
+    "title" : "Teacher, Grade 1 - 3",
+    "summary" : "Graduated from Divine Word College Calapan, major in Math, cooks french cuisine as hobby.",
+    "shortname": "macario_sakay",
+    "socialmedia": ["macario94","macario94"]
+  },{
+    "name" : "Gary Duterte",
+    "title" : "Teacher, Grade 4 - 6",
+    "summary" : "Graduated from Far Eastern University, major in Filipino, dances to classical music.",
+    "shortname": "gary_duterte",
+    "socialmedia": ["gary_duts11","gary_duts11"]
+  },{
+    "name" : "Thomas Reyes",
+    "title" : "Teacher, Grade 2 - 4",
+    "summary" : "Graduated from Divine Word College of Calapan, major in Science, has special talent in rapping.",
+    "shortname": "thomas_reyes",
+    "socialmedia": ["thomyboy123", "thomyboy123", "thomyreyes93"]
+  }
+]
+}
